@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.resume-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: aliceblue;
+height: 90%;
+    
+}.left-section{
+    background-color: #008B8B;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #737272;
+
+}
+.profile-picture{
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #e6e4e6;
+    margin-bottom: 20px;
+}.right-section {
+    padding: 20px;
+    width: 65%;
+    
+}.name-passion{
+    text-align: center;
+}.hideskillsbutton{
+    text-align: center;
+    
+}#hide{
+    padding: 8px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-weight: bolder;
+}#hide:hover{
+    background-color: #737272;
+    cursor: pointer;
+}
